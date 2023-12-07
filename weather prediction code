@@ -1,0 +1,19 @@
+t= float(input())
+h = float(input())
+w=float(input())
+
+W=(0.5*t*t-0.2*h+0.1*w-15)
+
+print(W)
+
+if W>300:
+    print("weather is sunny");
+
+elif 200<W<=300:
+    print("weather is cloudy")
+
+elif 100<W<=200:
+    print("weather is rainy");
+
+else:
+    print("weather is stormy");
